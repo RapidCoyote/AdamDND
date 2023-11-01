@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Kitsune</name>
+		<update version="0.2">
+			<file name="race-Kitsune.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/races/race-elf.xml" />
+		</update>
+	</info>
+
+	<element name="Kitsune" type="Race" source="Adam" id="ID_RACE_FOX">
+		<description>
+			<p class="flavor">The Kitsune are fox-like fae, which can trace their roots back to the tabaxi; they now typically live in the Mauryan and Fallenstar Empires. They are slender and agile, making them great hunters and scouts.</p>
+			<h4>APPEARANCE</h4>
+			<p>Kitsune are about the same height as elves and Humans, but appear taller due to their upright ears, but they do typically weigh 20 lbs less than a human of the same height. They typically have light brown or golden fur, but rarely can have black or white fur.</p>
+			<h4>KITSUNE TRAITS</h4>
+			<p>Your kitsune character has a variety of superior abilities.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2 and your Wisdom score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Kitsune mature at the age of 16, and typically live for 400 years.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Kitsune are patient, yet love to play tricks on people, thus, they are typically chaotic.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Kitsune range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 35 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Your canine eyes provide a superior sense of vision in the dark, you have 60ft of darkvision</p>
+			<p class="indent"><strong><em>Cunning Senses.</em></strong> You have proficiency in the Perception and Survival skills.</p>
+			<p class="indent"><strong><em>Nine Tails.</em></strong> Kitsune begin their lives with one tail around 3 feet long. When a Kitsune becomes more powerful, they will grow an extra tail, one kitsune may have up to 9 tails by the end of their life, but most only ever have one tail. You start with one tail, then you are able to earn the other tails. The tails do nothing, but if you take the Fae Tails feat then they have functional uses. The tails regrow after 1 long rest if severed.</p>
+			<p class="indent"><strong><em>Shift.</em></strong> Once per long rest as an action, you may shapeshift into a fox for up to one hour, you can turn back as an action at any time, and you use the normal fox statblock, when you shift your Intelligence and Wisdom scores stay the same.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Sylvan.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			
+			<set name="names-format">{{name}} {{family}}</set>
+			<set name="height" modifier="2d10">4'6"</set>
+			<set name="weight" modifier="1d4">90 lb.</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2"/>
+            <stat name="wisdom" value="1"/>
+			<stat name="innate speed" value="35" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON"/>
+			<grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CUNNING_SENSES" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_NINE_TAILS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SHIFT" />
+		</rules>
+	</element>
+	<element name="Cunning Senses" type="Racial Trait" source="Adam" id="ID_RACIAL_TRAIT_CUNNING_SENSES">
+		<description>
+			<p>You have proficiency in the Perception and Surival skills.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Perception and Surival skills.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+	<element name="Nine Tails" type="Racial Trait" source="Adam" id="ID_RACIAL_TRAIT_NINE_TAILS">
+		<description>
+			<p>Kitsune begin their lives with one tail around 3 feet long. When a Kitsune becomes more powerful, they will grow an extra tail, one kitsune may have up to 9 tails by the end of their life, but most only ever have one tail. You start with one tail, then you are able to earn the other tails. The tails do nothing, but if you take the Fae Tails feat then they have functional uses. The tails regrow after 1 long rest if severed.</p>
+		</description>
+		<sheet>
+			<description>Kitsune begin their lives with one tail around 3 feet long. When a Kitsune becomes more powerful, they will grow an extra tail, one kitsune may have up to 9 tails by the end of their life, but most only ever have one tail. You start with one tail, then you are able to earn the other tails. The tails do nothing, but if you take the Fae Tails feat then they have functional uses. The tails regrow after 1 long rest if severed.</description>
+		</sheet>
+	</element>
+	<element name="Shift" type="Racial Trait" source="Adam" id="ID_RACIAL_TRAIT_SHIFT">
+		<description>
+			<p>Once per long rest as an action, you may shapeshift into a fox for up to one hour, you can turn back as an action at any time, and you use the normal fox statblock, when you shift your Intelligence and Wisdom scores stay the same.</p>
+		</description>
+		<sheet>
+			<description>Once per long rest as an action, you may shapeshift into a fox for up to one hour, you can turn back as an action at any time, and you use the normal fox statblock, when you shift your Intelligence and Wisdom scores stay the same.</description>
+		</sheet>
+	</element>
+</elements>

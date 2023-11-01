@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Firian Elf" type="Sub Race" source="Me" id="FIREN_ELF">
+		<supports>Elf</supports>
+		<description>
+			<p>Firian Elves are typically from the plains just outside of Fallenstar’s capital city, They look almost identical to humans with some minor changes in appearance, such as, Firian elves cannot have red or black hair, they typically have either light brown hair, or white/gold blonde hair, they are often paler than the typical human. Their eyes look identical to a human’s, but they are usually green, blue, or in rare cases, purple. They age the same as a normal elf, and usually have about the same height and weight.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Charisma score increases by 1.</p>
+			<p class="indent"><b><i>Infiltrator. </i></b>You can cast disguise self 1/per short rest, your spell save is charisma</p>
+			<p class="indent"><b><i>Extra language. </i></b>You may learn one extra language of your choice. </p>
+			<p class="indent"><b><i>Elf Weapon Training. </i></b>You have proficiency with the longsword, shortsword, shortbow, and longbow.</p>
+		</description>
+		<rules>
+			<stat name="charisma" value="1" />
+		</rules>
+	</element>
+
+</elements>
