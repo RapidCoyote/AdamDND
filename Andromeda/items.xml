@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Weapons</name>
+		<update version="0.0.4">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/items/items-weapons.xml" />
+		</update>
+	</info>
+	
+	<!-- simple -->
+	<element name="Recurve Bow" type="Weapon" source="Andromeda" id="ID_WOTC_PHB_WEAPON_RECURVE_BOW">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_Piercing, ID_INTERNAL_WEAPON_PROPERTY_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_TWOHANDED, ID_INTERNAL_WEAPON_GROUP_BOWS</supports>
+		<description>
+			<p></p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">25</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">twohand</set>
+            <set name="range">80/320</set>
+			<set name="damage" type="Piercing">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RECURVE</set>
+		</setters>
+	</element>
+    <element name="Hama Yumi" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_HAMA_YUMI">
+		<description>
+			<p>A fine wooden bow, colored Red and black, the Hama Yumi has been passed down from the Yumiko Family for generations. With a single fire from an arrow, the Hama Yumi is said to banish the evil from within its target.</p>
+			<sheet display="false"> <p class="indent"><b><i>Ability Score Increase.</i></b>Your Dexterity score increases by 2, and your Wisdom score increases by 1.</p> </sheet>
+			<p class="indent"><b><i>Bane of all Evil.</i></b>If the enemy you are shooting with this bow is evil, the bow will do 3d10 extra radiant damage.</p>
+			<p class="indent"><b><i>Delayed Strike.</i></b>On a critical hit, the arrow will be magically enhanced and wherever it lands, a delayed fireball will be cast there. You may choose to explode it as a bonus action. </p>
+			<p class="indent"><b><i>Spells.</i></b>The Hama Yumi has 5 charges, and lets you cast; Detect Evil and Good(1 charge), Protection from Evil and Good(1 charge), and Dispel Evil and Good(3 charges)</p>
+			<p class="indent"><b><i>Damage.</i></b>The Hama Yumi does 4d6 Piercing damage, and 3d10 Radiant damage if the target is evil.</p>
+			<p class="indent"><b><i>Random Properties.</i></b>The Hama Yumi has been cursed by an ancient Evil, cursing the user with some detrimental effects.</p>
+			<li>
+				<ul>3 minor beneficial properties</ul>
+				<ul>1 major beneficial property</ul>
+				<ul>2 minor detrimental properties</ul>
+				<ul>1 major detrimental property</ul>
+			</li>
+		</description>
+		<setters>
+			<set name="keywords">Recurve Bow</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="Recurve Bow">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="weapon">Recurve Bow</set>
+			<set name="damage">4d6</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="2"/>
+            <stat name="wisdom" value="1"/>
+			<stat name="dexterity:max" value="2" />
+			<stat name="wisdom:max" value="1" />
+		</rules>
+	</element>
+	<element name="Necklace of Mirages" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_NECKLACE_OF_MIRAGES">
+		<description>
+			<p>A beautiful silver pendant created by the trickery god Dolus, the pendant looks like two silver wings emerging from an ovular Sapphire in the center, 3 chains emerging from the tips of the angel's wings, all to a small clasp on the end to fit the pendant perfectly to your neck.</p>
+			<sheet display="false"> <p class="indent"><b><i>Ability Score Increase.</i></b>Your Wisdom score increases by 2.</p> </sheet>
+			<sheet action="Action"> <p class="indent"><b><i>Mirage.</i></b>Create a perfect mirror image of yourself. If you make an action, bonus action, or reaction, the mirage will follow your movements perfectly, if you do a ranged attack, the mirage will also make one, dealing half of your rolled damage on a hit (uses your roll), if casting an offensive spell, the mirage will also cast said spell, directed to wherever you casted it to (dealing half damage). The mirage lasts for 1 hour and this feature.</p> </sheet>
+			<p class="indent"><b><i>Illusionist's delight.</i></b>You may cast every Illusion spell from 1st to 9th level once/per long rest, and every cantrip infinitely.</p>
+			<p class="indent"><b><i>Mayhem.</i></b>You may cast delayed blast fireball at 9th level once per long rest.</p>
+			<p class="indent"><b><i>Random Properties.</i></b>The Necklace of Mirages has some randome properties</p>
+			<li>
+				<ul>2 minor beneficial properties</ul>
+				<ul>2 major beneficial properties</ul>
+				<ul>1 minor detrimental property</ul>
+			</li>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="12">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+            <stat name="wisdom" value="2"/>
+			<stat name="wisdom:max" value="2" />
+		</rules>
+	</element>
+	<element name="Aegis" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_SHIELD_AEGIS">
+		<description>
+			<p>Created by the best blacksmiths in the Norman Empire, Aegis was created for a legendary fighter to assist him in defeating an evil Warlock. Aegis has an innate +2.</p>
+			<p class="indent"><b><i>Magic Parry.</i></b>Whether it be a fireball, lightning strike, or even a charm, the Aegis can parry it. Allows you to cast Counter spell at 9th level once/per short rest.</p>
+			<p class="indent"><b><i>Magic Resistance.</i></b>If a spellcaster targets you with a ranged/melee spell, they have disadvantage to hit, but if it is a spell save dc, then you have advantage. The shield's resistance to magic has also granted it immunity to heat metal.</p>
+		</description>
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="enhancement">2</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			<set name="rarity">Legendary</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="2" bonus="enhancement" />
+		</rules>
+	</element>
+</elements>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Fae Tails" type="Feat" source="Andromeda" id="ID_FEAT_FAE_TAILS">
+        <prerequisite>Kitsune</prerequisite>
+        <requirements>ID_RACE_FOX</requirements>
+        <description>
+            <p><i>Prerequisite: Kitsune</i></p>
+            <p>You have trained to harness your latent power, and thus have unlocked your greater journey.</p>
+            <p class="indent">Everytime you grow a new tail, you gain a new power from the following table.</p>
+            <p class="indent">
+            <table>
+				<thead>
+					<tr>
+						<td>Tail Count</td>
+						<td>Powers</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>obtained from birth, Increase your wisdom score by 1 for a max of 20, and lets you cast the minor illusion cantrip</em>
+					</td>
+				</tr>
+				<tr>
+					<td>2nd</td>
+					<td>
+						<em>obtained at 4th level, You may cast Comprehend languages once every long rest with no components you are also able to use shift to cast the disguise self spell.</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>obtained at 8th level, you may use your shift to turn into a blink fox instead</em>
+					</td>
+				</tr>
+				<tr>
+					<td>4th</td>
+					<td>
+						<em>obtained at 10th level, You may choose to ignore one fatal blow per long rest.</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>obtained at 12th level, Your shifts have equal dit die to you</em>
+					</td>
+				</tr>
+                <tr>
+					<td>6th</td>
+					<td>
+						<em>obtained at 14th level, Your Charisma increases by 2 for a max of 20, and you have proficiency in deception, or Expertise if you already do.</em>
+					</td>
+				</tr>
+                <tr>
+					<td>7th</td>
+					<td>
+						<em>obtained by recieving a great boon, you gain one extra use of shift</em>
+					</td>
+				</tr>
+                <tr>
+					<td>8th</td>
+					<td>
+						<em>Obtained from recieving an epic boon, you gain the power to use Mimic to true polymorph for an hour into any humanoid of your choice, when in the form, you have expertise in persuasion and your charisma score increases by 6 (for a max of 26) during this time.</em>
+					</td>
+				</tr>
+                <tr>
+					<td>9th</td>
+					<td>
+						<em>Obtained by recieving a Mythical blessing and obtaining every other tail, you may now use shift to turn into a nine tailed kitsune for 1 minute, using your shift.</em>
+					</td>
+				</tr>
+			</table>
+            </p>
+        </description>
+        <rules>
+        <stat name="wisdom" value="1" level="1"/>
+        <stat name="wisdom:max" value="20" level="1"/>
+        <grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" level="1"/>
+        <grant type="Spell" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES" level="4"/>
+        <stat name="charisma" value="2" level="14"/>
+        <grant type="Grants" id="ID_INTERNAL_GRANTS_PROFICIENCY_SKILL_OR_DOUBLE_DECEPTION" level="14"/>
+        </rules>
+        <sheet>
+            <description>
+
+            </description>
+        </sheet>
+    </element>
+
+</elements>
