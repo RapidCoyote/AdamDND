@@ -4,7 +4,7 @@
 		<name>Andromeda</name>
 		<description>The content for the Amireath Campaign.</description>
 		<update version="1.0">
-			<file name="core.index" url="https://github.com/RapidCoyote/AdamDND/tree/main/Andromadam/Andromeda"/>
+			<file name="core.index" url="https://github.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda"/>
 		</update>
 	</info>
 	<files>
