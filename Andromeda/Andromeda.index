@@ -3,16 +3,16 @@
 	<info>
 		<name>Andromeda</name>
 		<description>The content for the Amireath Campaign.</description>
-		<author url="https://raw.githubusercontent.com//RapidCoyote/AdamDND">Andromeda</author>
-		<update version="0.2.5">
-			<file name="core.index" url="https://raw.githubusercontent.com//RapidCoyote/AdamDND/tree/main/Andromeda"/>
+		<author url="https://github.com/RapidCoyote/AdamDND/tree/main/Andromeda">Andromeda</author>
+		<update version="1.0">
+			<file name="core.index" url="https://github.com/RapidCoyote/AdamDND/tree/main/Andromeda"/>
 		</update>
 	</info>
 	<files>
-		<file name="items.xml" url="https://raw.githubusercontent.com//RapidCoyote/AdamDND/blob/main/Andromeda/items.xml"/>
-		<file name="feats.xml" url="https://raw.githubusercontent.com//RapidCoyote/AdamDND/blob/main/Andromeda/feats.xml"/>
-		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com//RapidCoyote/AdamDND/blob/main/Andromeda/Subclasses/TimeDomain.xml"/>
-		<file name="FirianElf.xml" url="https://raw.githubusercontent.com//RapidCoyote/AdamDND/blob/main/Andromeda/Races/FirianElf.xml"/>
-		<file name="Kitsune.xml" url="https://raw.githubusercontent.com//RapidCoyote/AdamDND/blob/main/Andromeda/Races/Kitsune.xml"/>
+		<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromeda/items.xml"/>
+		<file name="feats.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromeda/feats.xml"/>
+		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromeda/Subclasses/TimeDomain.xml"/>
+		<file name="FirianElf.xml" url="https://raw.githubusercontent.com//RapidCoyote/AdamDND/main/Andromeda/Races/FirianElf.xml"/>
+		<file name="Kitsune.xml" url="https://raw.githubusercontent.com//RapidCoyote/AdamDND/main/Andromeda/Races/Kitsune.xml"/>
 	</files>
 </index>

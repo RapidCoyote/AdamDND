@@ -82,19 +82,6 @@
 			<select type="Language"/>
 		</rules>
 	</element>
-	<element name="But Seks" type="Sub Race" source="Andromeda" id="ID_SUB_RACE_MKULTRA">
-		<supports>Kitsune</supports>
-		<description>
-			<p>Early Fey who roamed the Mauryan empire took a liking to nearby Tabaxi tribes and villages, and slowly evolved to look similar to them, and eventually the Kitsune was born.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Wisdom score increases by 1.</p>
-			<p class="indent"><b><i>Hunter's Claws. </i></b>Your claws have grown sharp as a blade, your unarmed attacks deal 2d4 slashing damage.</p>
-			<p class="indent"><b><i>Speed.</i></b> Your base walking speed is 35 feet.</p>
-		</description>
-		<rules>
-			<stat name="wisdom" value="1" />
-			<stat name="innate speed" value="35" bonus="base" />
-		</rules>
-	</element>
 	<element name="Cunning Senses" type="Racial Trait" source="Andromeda" id="ID_RACIAL_TRAIT_CUNNING_SENSES">
 		<description>
 			<p>You have proficiency in the Perception and Surival skills.</p>
