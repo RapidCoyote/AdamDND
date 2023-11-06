@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Andromeda</name>
+		<description>The content for the Amireath Campaign.</description>
+		<author url="https://github.com/RapidCoyote/AdamDND">Andromeda</author>
+		<update version="0.2.5">
+			<file name="core.index" url="https://github.com/RapidCoyote/AdamDND/tree/main/Andromeda"/>
+		</update>
+	</info>
+	<files>
+		<file name="items.xml" url="https://github.com/RapidCoyote/AdamDND/blob/main/Andromeda/items.xml"/>
+		<file name="feats.xml" url="https://github.com/RapidCoyote/AdamDND/blob/main/Andromeda/feats.xml"/>
+		<file name="TimeDomain.xml" url="https://github.com/RapidCoyote/AdamDND/blob/main/Andromeda/Subclasses/TimeDomain.xml"/>
+		<file name="FirianElf.xml" url="https://github.com/RapidCoyote/AdamDND/blob/main/Andromeda/Races/FirianElf.xml"/>
+		<file name="Kitsune.xml" url="https://github.com/RapidCoyote/AdamDND/blob/main/Andromeda/Races/Kitsune.xml"/>
+	</files>
+</index>
