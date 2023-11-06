@@ -82,7 +82,7 @@
 			<select type="Language"/>
 		</rules>
 	</element>
-	<element name="But Secs" type="Sub Race" source="Andromeda" id="ID_SUB_RACE_MKULTRA">
+	<element name="But Seks" type="Sub Race" source="Andromeda" id="ID_SUB_RACE_MKULTRA">
 		<supports>Kitsune</supports>
 		<description>
 			<p>Early Fey who roamed the Mauryan empire took a liking to nearby Tabaxi tribes and villages, and slowly evolved to look similar to them, and eventually the Kitsune was born.</p>
