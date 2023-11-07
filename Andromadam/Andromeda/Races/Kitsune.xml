@@ -67,7 +67,7 @@
 			<stat name="innate speed" value="35" bonus="base" />
 		</rules>
 	</element>
-	<element name="Submarine" type="Sub Race" source="Andromeda" id="ID_SUB_RACE_MKULTRA">
+	<element name="Sub" type="Sub Race" source="Andromeda" id="ID_SUB_RACE_MKULTRA">
 		<supports>Kitsune</supports>
 		<description>
 			<p>Early Fey who roamed the Mauryan empire took a liking to nearby Tabaxi tribes and villages, and slowly evolved to look similar to them, and eventually the Kitsune was born.</p>
