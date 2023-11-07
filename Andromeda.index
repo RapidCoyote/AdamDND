@@ -2,16 +2,12 @@
 <index>
 	<info>
 		<name>Andromeda</name>
-		<description>The content for the Amireath Campaign.</description>
+		<description>The content for Andromeda's Campaigns.</description>
 		<update version="1.0">
-			<file name="core.index" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromeda.index"/>
+			<file name="Andromeda.index" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromeda.index"/>
 		</update>
 	</info>
 	<files>
-		<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/items.xml"/>
-		<file name="feats.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/feats.xml"/>
-		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/Subclasses/TimeDomain.xml"/>
-		<file name="FirianElf.xml" url="https://raw.githubusercontent.com//RapidCoyote/AdamDND/main/Andromadam/Andromeda/Races/FirianElf.xml"/>
-		<file name="Kitsune.xml" url="https://raw.githubusercontent.com//RapidCoyote/AdamDND/main/Andromadam/Andromeda/Races/Kitsune.xml"/>
+		<file name="Amireath.index" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/Amireath.index"/>
 	</files>
 </index>
