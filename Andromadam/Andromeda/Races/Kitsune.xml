@@ -3,7 +3,7 @@
 	<info>
 		<name>Kitsune</name>
 		<update version="0.2">
-			<file name="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/Races/Kitsune.xml" />
+			<file name="Kitsune.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/Races/Kitsune.xml" />
 		</update>
 	</info>
 
