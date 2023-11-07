@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/items.xml" />
 		</update>
 	</info>
@@ -225,7 +225,7 @@
 		<description>
 			<p>This Ring seems to be made out of refined lonsdaleite, giving it a dark purple shimmer, and the wyrm has eyes made out of tiny diamonds, which no matter where they are, seem to shimmer with pure magic. In addition, the Ring itself seems to be a Wyrm in an interlocking cycle of biting it's own tail.</p>
 			<p class="indent">While wearing this ring, You have advantage on all death saving throws.</p>
-			<p class="indent">The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.</p>
+			<p class="indent">The ring has one BILLION charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.</p>
 			<p class="indent"><strong><em>Ring of Air Elemental Command.</em></strong> You can expend 2 of the ring's charges to cast <em>dominate monster</em> on an air elemental. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.</p>
 			<p>If you help slay an air elemental while attuned to the ring, you gain access to the following additional properties:</p>
 			<ul>
