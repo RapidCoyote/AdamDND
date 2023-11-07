@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Feats</name>
+		<update version="0.0.4">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/feats.xml" />
+		</update>
+	</info>
+
     <element name="Fae Tails" type="Feat" source="Andromeda" id="ID_FEAT_FAE_TAILS">
         <prerequisite>Kitsune</prerequisite>
         <requirements>ID_RACE_FOX</requirements>
