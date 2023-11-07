@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/items.xml" />
 		</update>
 	</info>
@@ -221,7 +221,7 @@
 			<stat name="dexterity:max" value="2" />
 		</rules>
 	</element>
-	<element name="Ouroboros (WIP)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_RING_OF_OUROBOROS">
+	<element name="Ouroboros" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_RING_OF_OUROBOROS">
 		<description>
 			<p>This Ring seems to be made out of refined lonsdaleite, giving it a dark purple shimmer, and the wyrm has eyes made out of tiny diamonds, which no matter where they are, seem to shimmer with pure magic. In addition, the Ring itself seems to be a Wyrm in an interlocking cycle of biting it's own tail.</p>
 			<p class="indent">While wearing this ring, You have advantage on all death saving throws.</p>
