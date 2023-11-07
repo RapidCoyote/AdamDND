@@ -11,7 +11,7 @@
 		<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/items.xml"/>
 		<file name="feats.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/feats.xml"/>
 		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/Subclasses/TimeDomain.xml"/>
-		<file name="FirianElf.xml" url="https://raw.githubusercontent.com//RapidCoyote/AdamDND/main/Andromadam/Andromeda/Races/FirianElf.xml"/>
-		<file name="Kitsune.xml" url="https://raw.githubusercontent.com//RapidCoyote/AdamDND/main/Andromadam/Andromeda/Races/Kitsune.xml"/>
+		<file name="FirianElf.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/Races/FirianElf.xml"/>
+		<file name="Kitsune.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/Races/Kitsune.xml"/>
 	</files>
 </index>
