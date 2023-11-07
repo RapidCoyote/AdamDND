@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<name>Firian Elf</name>
+		<update version="0.0.4">
+			<file name="FirianElf.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/Races/FirianElf.xml" />
+		</update>
+	</info>
 
 	<element name="Firian Elf" type="Sub Race" source="Andromeda" id="FIREN_ELF">
 		<supports>Elf</supports>
