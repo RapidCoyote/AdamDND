@@ -220,13 +220,31 @@
 			<stat name="dexterity" value="2"/>
 			<stat name="dexterity:max" value="2" />
 		</rules>
-		<element name="Test Item" type="Item" source="Andromeda" id="ITEM_TEST_ITEM">
-		<description>
-			<p>This is a test item for checking if the content structure works correctly.</p>
-		</description>
-		<sheet>
-			<description>This is a test item for checking if the content structure works correctly.</description>
-		</sheet>
 	</element>
+	<element name="Ouroboros (WIP)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_RING_OF_OUROBOROS">
+		<description>
+			<p>This Ring seems to be made out of refined lonsdaleite, giving it a dark purple shimmer, and the wyrm has eyes made out of tiny diamonds, which no matter where they are, seem to shimmer with pure magic. In addition, the Ring itself seems to be a Wyrm in an interlocking cycle of biting it's own tail.</p>
+			<p class="indent">While wearing this ring, You have advantage on all death saving throws.</p>
+			<p class="indent">The ring has 5 charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.</p>
+			<p class="indent"><strong><em>Ring of Air Elemental Command.</em></strong> You can expend 2 of the ring's charges to cast <em>dominate monster</em> on an air elemental. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.</p>
+			<p>If you help slay an air elemental while attuned to the ring, you gain access to the following additional properties:</p>
+			<ul>
+				<li>You have resistance to lightning damage.</li>
+				<li>You have a flying speed equal to your walking speed and can hover.</li>
+				<li>You can cast the following spells from the ring, expending the necessary number of charges: <em>chain lightning</em> (3 charges), <em>gust of wind</em> (2 charges), or <em>wind wall</em> (1 charge).</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="slot">ring</set>
+			<set name="type">Ring</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+			<stat name="speed:fly" value="speed" bonus="base" />
+			<!-- todo: add flag for can hover? -->
+		</rules>
 	</element>
 </elements>
