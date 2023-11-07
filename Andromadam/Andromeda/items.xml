@@ -220,5 +220,13 @@
 			<stat name="dexterity" value="2"/>
 			<stat name="dexterity:max" value="2" />
 		</rules>
+		<element name="Test Item" type="Item" source="Andromeda" id="ITEM_TEST_ITEM">
+		<description>
+			<p>This is a test item for checking if the content structure works correctly.</p>
+		</description>
+		<sheet>
+			<description>This is a test item for checking if the content structure works correctly.</description>
+		</sheet>
+	</element>
 	</element>
 </elements>
