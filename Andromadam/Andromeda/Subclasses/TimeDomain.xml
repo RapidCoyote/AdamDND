@@ -2,7 +2,7 @@
 <elements>
 	<info>
 	<update version="1.0">
-		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/supplements/xanathars-guide-to-everything/archetypes/cleric-forgedomain.xml"/>	
+		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/Subclasses/TimeDomain.xml"/>	
 	</update>
 		<name>Time Domain</name>
 		<description>Gods of Time tend to be concerned with natural order and preventing excessive meddling in time, even allowing their followers to manipulate time in their service.</description>
