@@ -3,7 +3,7 @@
 	<info>
 		<name>Feats</name>
 		<update version="0.0.4">
-			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/feats.xml" />
+			<file name="feats.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/feats.xml" />
 		</update>
 	</info>
 
