@@ -290,7 +290,7 @@
 			<li>
 				<ul>2 minor beneficial properties</ul>
 				<ul>2 major beneficial properties</ul>
-				<ul>3 minor detrimental properties</ul>
+				<ul>2 minor detrimental properties</ul>
 				<ul>2 major detrimental properties</ul>
 			</li>
 			<div class="reference">
@@ -298,7 +298,7 @@
 			</div>
 		</description>
 		<setters>
-			<set name="category">Magic Weapons</set>
+			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type">Wondrous Items</set>
 			<set name="attunement" addition="by a creature that can cast 9th level spells">true</set>
@@ -319,7 +319,7 @@
 			<li>
 				<ul>2 minor beneficial properties</ul>
 				<ul>2 major beneficial properties</ul>
-				<ul>3 minor detrimental properties</ul>
+				<ul>2 minor detrimental properties</ul>
 				<ul>2 major detrimental properties</ul>
 			</li>
 			<div class="reference">
@@ -327,10 +327,10 @@
 			</div>
 		</description>
 		<setters>
-			<set name="category">Magic Weapons</set>
+			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type">Wondrous Items</set>
-			<set name="attunement" addition="by a creature that can cast 9th level spells">true</set>
+			<set name="attunement">true</set>
 			<set name="rarity">Artifact</set>
 			<set name="slot">Spellcasting Focus</set>
 		</setters>
