@@ -29,7 +29,7 @@
 			<p>A fine wooden bow, colored Red and black, the Hama Yumi has been passed down from the Yumiko Family for generations. With a single fire from an arrow, the Hama Yumi is said to banish the evil from within its target.</p>
 			<sheet display="false"> <p class="indent"><b><i>Ability Score Increase. </i></b>Your Dexterity score increases by 2, and your Wisdom score increases by 1.</p> </sheet>
 			<p class="indent"><b><i>Bane of all Evil. </i></b>If the enemy you are shooting with this bow is evil, the bow will do 3d10 extra radiant damage.</p>
-			<p class="indent"><b><i>Delayed Strike. </i></b>On a critical hit, the arrow will be magically enhanced and wherever it lands, a delayed fireball will be cast there. You may choose to explode it as a bonus action. </p>
+			<p class="indent"><b><i>Delayed Strike. </i></b>On a critical hit, the arrow will be magically enhanced and wherever it lands, a delayed fireball will be cast there. You may choose to explode it as a bonus action, alternatively, once per long rest, you may choose to prime an arrow in advance, this arrow will deal have the explosion damage, and can be exploded as a bonus action. </p>
 			<p class="indent"><b><i>Spells. </i></b>The Hama Yumi has 5 charges, which are recovered at dawn of the next day, and lets you cast; Detect Evil and Good(1 charge), Protection from Evil and Good(1 charge), and Dispel Evil and Good(3 charges)</p>
 			<p class="indent"><b><i>Damage. </i></b>The Hama Yumi does 4d6 Piercing damage, and 3d10 Radiant damage if the target is evil.</p>
 			<p class="indent"><b><i>Random Properties. </i></b>The Hama Yumi has been cursed by an ancient Evil, cursing the user with some detrimental effects.</p>
@@ -39,6 +39,9 @@
 				<ul>2 minor detrimental properties</ul>
 				<ul>1 major detrimental property</ul>
 			</li>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
 		</description>
 		<setters>
 			<set name="keywords">Recurve Bow</set>
@@ -58,24 +61,27 @@
 		</rules>
 	</element>
 
-	<element name="Necklace of Mirages" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_NECKLACE_OF_MIRAGES">
+	<element name="Amulet of Mirages" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_NECKLACE_OF_MIRAGES">
 		<description>
 			<p>A beautiful silver pendant created by the trickery god Dolus, the pendant looks like two silver wings emerging from an ovular Sapphire in the center, 3 chains emerging from the tips of the angel's wings, all to a small clasp on the end to fit the pendant perfectly to your neck.</p>
-			<sheet display="false"> <p class="indent"><b><i>Ability Score Increase. </i></b>Your Wisdom score increases by 2.</p> </sheet>
-			<sheet action="Action"> <p class="indent"><b><i>Mirage. </i></b>Create a perfect mirror image of yourself. If you make an action, bonus action, or reaction, the mirage will follow your movements perfectly, if you do a ranged attack, the mirage will also make one, dealing half of your rolled damage on a hit (uses your roll), if casting an offensive spell, the mirage will also cast said spell, directed to wherever you casted it to (dealing half damage). The mirage lasts for 1 hour and this feature.</p> </sheet>
-			<p class="indent"><b><i>Illusionist's delight. </i></b>You may cast every Illusion spell from 1st to 9th level once/per long rest, and every cantrip infinitely.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Wisdom score increases by 2.</p>
+			<p class="indent"><b><i>Mirage. </i></b>Create a perfect mirror image of yourself. If you make an action, bonus action, or reaction, the mirage will follow your movements perfectly, if you do a ranged attack, the mirage will also make one, dealing half of your rolled damage on a hit (uses your roll), if casting an offensive spell, the mirage will also cast said spell, directed to wherever you casted it to (dealing half damage). The mirage lasts for 1 hour and this feature.</p>
+			<p class="indent"><b><i>Illusionist's delight. </i></b>You may cast every Illusion spell from 1st to 9th level once/per long rest, and every Illusion cantrip infinitely.</p>
 			<p class="indent"><b><i>Mayhem. </i></b>You may cast delayed blast fireball at 9th level once per long rest.</p>
 			<p class="indent"><b><i>Random Properties. </i></b>The Necklace of Mirages has some randome properties</p>
 			<li>
 				<ul>2 minor beneficial properties</ul>
 				<ul>2 major beneficial properties</ul>
-				<ul>1 minor detrimental property</ul>
+				<ul>2 minor detrimental properties</ul>
 			</li>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
 		</description>
 		<setters>
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="weight" lb="12">0 lb.</set>
+			<set name="weight" lb="0">0 lb.</set>
 			<set name="type">Wondrous Item</set>
 			<set name="rarity">Artifact</set>
 			<set name="attunement">true</set>
@@ -111,11 +117,11 @@
 		<description>
 			<p><b><i>Infinite. </i></b> When the first of the Apeirons fell, He was there. When the first god, Elara created herself, He was there. When the first death of a god happened, He was there. Every. Single. Time.</p>
 			<p>Excalibur has reached a dormant state, the blade was once sentient, but the original soul has all but dissolved over time.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength and Constitution scores increase by 1.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Wisdom score increases by 2.</p>
 			<p class="indent"><b><i>Damage. </i></b>Excalibur does 2d6 Slashing damage.</p>
 			<p class="indent"><b><i>Sealing Strike. </i></b>On a Critical hit, You thrust Excalibur into your target dealing 4d6 true piercing damage, They must succeed a dc15 Wisdom saving throw or take 10d12 Radiant damage, this damage is treated as true damage. If this attack brings the target below 100 hit points, their soul is absorbed into the sword and they cannot be revived through any mean until their soul escapes the blade.</p>
 			<p class="indent"><b><i>Proficiency. </i></b>If you bond with Excalibur You gain proficiency with Scimitars, if you already have proficiency with them, you gain Expertise with Excalibur.</p>
-			<p class="indent"><b><i>Spells. </i></b>Excalibur has 3 charges, which are recovered at dawn of the next day, and lets you cast; Shield(1 charge), Banishment(1 charge), and Banishing Smite(2 charges)</p>
+			<p class="indent"><b><i>Spells. </i></b>Excalibur has 3 charges, which are recovered at dawn of the next day, and lets you cast; <b>Shield</b>(1 charge), <b>Banishment</b>(1 charge), and <b>Banishing Smite</b>(2 charges)</p>
 			<p class="indent"><b><i>Curse. </i></b>The Apeiron has cursed Excalibur, once attuned the only way for you to unattune from the blade would be to either destroy the curse, destroy the blade, or die. Every so often Whispers of Retribution will plague your mind.</p>
 			<p class="indent"><b><i>Random Properties. </i></b>Excalibur Inhibits the Ancient soul of a weathered Apeiron, Cursing the blade to forever carry the curse of The Old one's will.</p>
 			<li>
@@ -124,21 +130,22 @@
 				<ul>4 minor detrimental properties</ul>
 				<ul>2 major detrimental properties</ul>
 			</li>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
 		</description>
 		<setters>
-			<set name="keywords">Scimitar</set>
+			<set name="keywords">longsword</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="Scimitar">Weapon</set>
+			<set name="type" addition="longsword">Weapon</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Artifact</set>
-			<set name="weapon">Scimitar</set>
+			<set name="weapon">longsword</set>
 		</setters>
 		<rules>
-			<stat name="strength" value="1"/>
-			<stat name="strength:max" value="1" />
-			<stat name="constitution" value="1"/>
-			<stat name="constitution:max" value="1" />
+			<stat name="wisdom" value="2"/>
+			<stat name="wisdom:max" value="2" />
 		</rules>
 	</element>
 
@@ -146,14 +153,14 @@
 		<description>
 			<p><b><i>Eternal. </i></b>His choice was made. His children were slaughtered. cursed to forever walk the realms, forever in undeath. That was the sacrifice he chose to make.</p>
 			<p>Excalibur has reached an awakened state, Whatever you did caused the beginning of the revivification.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength and Constitution scores increase by 1 and your Wisdom score increases by 2.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Wisdom and Dexterity scores increase by 2.</p>
 			<p class="indent"><b><i>Damage. </i></b>Excalibur does 3d6 Slashing damage.</p>
 			<p class="indent"><b><i>Sealing Strike. </i></b>On a Critical hit, You thrust Excalibur into your target dealing 6d6 true piercing damage, They must succeed a dc20 Wisdom saving throw or take 12d12 Radiant damage, this damage is treated as true damage. If this attack brings the target below 100 hit points, their soul is absorbed into the sword and they cannot be revived through any mean until their soul escapes the blade.</p>
 			<p class="indent"><b><i>Proficiency. </i></b>If you bond with Excalibur You gain proficiency with Scimitars, if you already have proficiency with them, you gain Expertise with Excalibur.</p>
-			<p class="indent"><b><i>Spells. </i></b>Excalibur has 6 charges, which are recovered at dawn of the next day, and lets you cast; Shield(1 charge), Banishment(1 charge), Banishing Smite(2 charges), and Heal(4 charges),</p>
+			<p class="indent"><b><i>Spells. </i></b>Excalibur has 6 charges, which are recovered at dawn of the next day, and lets you cast; <b>Shield</b>(1 charge), <b>Banishment</b>(1 charge), <b>Banishing Smite</b>(2 charges), and <b>Heal</b>(4 charges),</p>
 			<p class="indent"><b><i>Curse. </i></b>The Apeiron has cursed Excalibur, once attuned the only way for you to unattune from the blade would be to either destroy the curse, destroy the blade, or die. Every so often Whispers of Retribution will plague your mind.</p>
 			<p class="indent"><b><i>Soul Absorb. </i></b>You may cast Soul cage once per long rest, you do not need a cage as Excalibur acts as the cage instead.</p>
-			<p class="indent"><b><i>Release. </i></b>Randomly release one soul from the Blade, roll a d12 to decide the creatures type, The creature is teated as incorporeal and as such, is resistant to non-magical physical attacks, but is vurnable to Radiant (even if it's a celestial), The creature will have no more tahn a 10cr.</p>
+			<p class="indent"><b><i>Release. </i></b>Randomly release one soul from the Blade, roll a d12 to decide the creatures type, The creature is treated as incorporeal and as such, is resistant to non-magical physical attacks, but is vurnable to Radiant (even if it's a celestial), The creature will have no more than a 10cr.</p>
 			<p class="indent"><b><i>Random Properties. </i></b>Excalibur Inhibits the Ancient soul of a weathered Apeiron, Cursing the blade to forever carry the curse of The Old one's will.</p>
 			<li>
 				<ul>3 minor beneficial properties</ul>
@@ -161,23 +168,24 @@
 				<ul>2 minor detrimental properties</ul>
 				<ul>1 major detrimental properties</ul>
 			</li>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
 		</description>
 		<setters>
-			<set name="keywords">Scimitar</set>
+			<set name="keywords">longsword</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="Scimitar">Weapon</set>
+			<set name="type" addition="longsword">Weapon</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Artifact</set>
-			<set name="weapon">Scimitar</set>
+			<set name="weapon">longsword</set>
 		</setters>
 		<rules>
-			<stat name="strength" value="1"/>
-			<stat name="strength:max" value="1" />
-			<stat name="constitution" value="1"/>
-			<stat name="constitution:max" value="1" />
 			<stat name="wisdom" value="2"/>
 			<stat name="wisdom:max" value="2" />
+			<stat name="dexterity" value="2"/>
+			<stat name="dexterity:max" value="2" />
 		</rules>
 	</element>
 
@@ -185,54 +193,62 @@
 		<description>
 			<p><b><i>Ouroboros. </i></b>How many Times have we been here? Done this? When does the cycle end? Or has it already? We sit here, drifting through the domain of Eternity, waiting for an answer from him.</p>
 			<p>Excalibur has reached an Exalted state, Aeternitas resides within the blade, thanks to you, it's purpose now revivified like a burning phoenix.</p>
-			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Strength and Constitution scores increase by 1 and your Wisdom and Dexterity scores increase by 2.</p>
+			<p class="indent"><b><i>Ability Score Increase. </i></b>Your Wisdom and Dexterity scores increase by 2, and choose one score (including Wisdom and Dexterity) to increase by 2, for a maximum of 24.</p>
 			<p class="indent"><b><i>Damage. </i></b>Excalibur does 4d6 Slashing damage.</p>
 			<p class="indent"><b><i>Sealing Strike. </i></b>On a Critical hit, You thrust Excalibur into your target dealing 8d6 true piercing damage, They must succeed a dc28 Wisdom saving throw or take 15d12 Radiant damage, this damage is treated as true damage. If this attack brings the target below 100 hit points, their soul is absorbed into the sword and they cannot be revived through any mean until their soul escapes the blade.</p>
 			<p class="indent"><b><i>Proficiency. </i></b>If you bond with Excalibur You gain proficiency with Scimitars, if you already have proficiency with them, you gain Expertise with Excalibur.</p>
-			<p class="indent"><b><i>Spells. </i></b>Excalibur has 9 charges, which are recovered at dawn of the next day, and lets you cast; Shield(1 charge), Banishment(1 charge), Banishing Smite(2 charges), Heal(4 charges), and Imprisonment(6 charges)</p>
+			<p class="indent"><b><i>Spells. </i></b>Excalibur has 9 charges, which are recovered at dawn of the next day, and lets you cast; <b>Shield</b>(1 charge), <b>Banishment</b>(1 charge), <b>Banishing Smite</b>(2 charges), <b>Heal</b>(4 charges), and <b>Imprisonment</b>(6 charges)</p>
 			<p class="indent"><b><i>Soul Absorb. </i></b>You may cast Soul cage once per long rest, you do not need a cage as Excalibur acts as the cage instead.</p>
 			<p class="indent"><b><i>Release. </i></b>once per long rest you may Release Aeternitas from the blade for 1 minute.</p>
 			<p class="indent"><b><i>SealBreaker. </i></b>Excalibur's slashes break through the fabric of reality, letting you hit incoporeal enemies as if they were right there, and you are immune to Curses, Diseases, and Mind Control of any kind.</p>
 			<p class="indent"><b><i>Double edged sword. </i></b>At will as a bonus action, you may Break Excalibur into two shorter blades, they have the light property, and you may give the left one to any willing creature if you so choose, You have expertise in both of them, the left one is treated as a shortsword that deals 2d6 piercing damage, and the right deals 3d6 slashing damage, And if either attack crits when you have both weapons in your hands, you may stab them both into a target, dealing 20d12 true radiant damage and sealing the target if they go below 100hp with this attack, subsequent crits during that turn deal 10d12 instead.</p>
 			<p class="indent"><b><i>Psychic Connection. </i></b>You have a connection to the blade, once per long rest, if you are below 10% health, you may as an action lash out with pure magic, dealing 1d10 of every damage type around you (skipping allies) in a 30ft radius, completely and utterly destroying the soul of any creature you kill with this attack, any survivors will be frightened (no immunity) and attempt to flee from you for the next minute.</p>
+			<p class="indent"><b><i>Piece of Eternity. </i></b>The Twinned blade is 3 of the 9 artifacts of Eternity.</p>
 			<p class="indent"><b><i>Random Properties. </i></b>The curse is broken, and the sword is cleansed.</p>
 			<li>
 				<ul>4 minor beneficial properties</ul>
 				<ul>2 major beneficial property</ul>
 			</li>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
 		</description>
 		<setters>
-			<set name="keywords">Scimitar</set>
+			<set name="keywords">longsword</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="Scimitar">Weapon</set>
+			<set name="type" addition="longsword">Weapon</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Artifact</set>
-			<set name="weapon">Scimitar</set>
+			<set name="weapon">longsword</set>
 		</setters>
 		<rules>
-			<stat name="strength" value="1"/>
-			<stat name="strength:max" value="1" />
-			<stat name="constitution" value="1"/>
-			<stat name="constitution:max" value="1" />
 			<stat name="wisdom" value="2"/>
 			<stat name="wisdom:max" value="2" />
 			<stat name="dexterity" value="2"/>
 			<stat name="dexterity:max" value="2" />
+			<select type="Ability Score Improvement" name="Ability Score Increase (Excalibur)" supports="Excalibur Ability Score Increase" />
 		</rules>
 	</element>
 	<element name="Ouroboros" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_RING_OF_OUROBOROS">
 		<description>
-			<p>This Ring seems to be made out of refined lonsdaleite, giving it a dark purple shimmer, and the wyrm has eyes made out of tiny diamonds, which no matter where they are, seem to shimmer with pure magic. In addition, the Ring itself seems to be a Wyrm in an interlocking cycle of biting it's own tail.</p>
-			<p class="indent">While wearing this ring, You have advantage on all death saving throws.</p>
-			<p class="indent">The ring has one BILLION charges. It regains 1d4 + 1 expended charges daily at dawn. Spells cast from the ring have a save DC of 17.</p>
-			<p class="indent"><strong><em>Ring of Air Elemental Command.</em></strong> You can expend 2 of the ring's charges to cast <em>dominate monster</em> on an air elemental. In addition, when you fall, you descend 60 feet per round and take no damage from falling. You can also speak and understand Auran.</p>
-			<p>If you help slay an air elemental while attuned to the ring, you gain access to the following additional properties:</p>
-			<ul>
-				<li>You have resistance to lightning damage.</li>
-				<li>You have a flying speed equal to your walking speed and can hover.</li>
-				<li>You can cast the following spells from the ring, expending the necessary number of charges: <em>chain lightning</em> (3 charges), <em>gust of wind</em> (2 charges), or <em>wind wall</em> (1 charge).</li>
-			</ul>
+			<p>This Ring seems to be made out of refined lonsdaleite, giving it a dark purple shimmer, and the wyrm has eyes made out of tiny diamonds, which no matter where they are, seem to shimmer with pure magic. In addition, the Ring itself seems to be a Wyrm in an interlocking cycle of biting it's own tail. While wearing this ring, consumed materials for spells will regenerate after 2d4-1 days.</p>
+			<p class="indent"><b><i>Cycle of Life. </i></b>When you drop down to 0 hitpoints, you may choose to instantly cause your wounds to heal, bringing you back up to full hp, this will leave deep scars from where your wounds are, and this can only be used once/per long rest.</p>
+			<p class="indent"><b><i>Cycle of Death. </i></b>Pick a target and revive them, 5 minutes after they have been revived they will die again, they remember how they originally died but do not know about their other impending doom. This can be used infinitely on a person, but each time they must make a dc10 wisdom saving throw increasing by 5 per use, on a fail Cycle of death may no longer be used on them.</p>
+			<p class="indent"><b><i>Cycle of War. </i></b>As a reaction, once per long rest you may choose a target who is making an attack (spell casting or not) Their spell with fail, and they will be trapped in a cycle of attempting the same attack but it will continue to fail, on every turn for a minute they must make a dc20 wisdom saving throw, or continue the cycle, on a success their spell is lost but their free will is brought back.</p>
+			<p class="indent"><b><i>Spells. </i></b>Ouroboros has 9 charges, with it you may cast: <b>Haste</b>(1 charge), <b>Slow</b>(1 Charge), <b>Swift Quiver</b>(2 Charges), <b>Reverse Gravity</b>(3 Charges), <b>Time Ravage</b>(5 Charges), <b>Time Stop</b>(6 Charges).</p>
+			<p class="indent"><b><i>Reverse. </i></b>Once per long rest, at any point during a fight, you may reverse time by 6 seconds, starting the fight back up on whoever was taking their turn at the time of the reversal. This may be used out of combat, to reverse time up to any amount, though the casting time is equal to how far back you want to go, and you cannot rest, eat, or drink while casting, this version cannot be casted again until the amount of time you went back has passed.</p>
+			<p class="indent"><b><i>Piece of Eternity. </i></b>This ring is 1 of the 9 artifacts of Eternity.</p>
+			<p class="indent"><b><i>Random Properties. </i></b>Ouroboros has perfect cycle of attributes.</p>
+			<li>
+				<ul>1 minor beneficial property</ul>
+				<ul>1 major beneficial property</ul>
+				<ul>1 minor detrimental property</ul>
+				<ul>1 major detrimental property</ul>
+			</li>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
 		</description>
 		<setters>
 			<set name="category">Rings</set>
@@ -241,10 +257,237 @@
 			<set name="attunement">true</set>
 			<set name="rarity">Artifact</set>
 		</setters>
+	</element>
+
+	<element name="Horseman's Glaive" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_HORSEMAN_GLAIVE">
+		<description>
+			<p>A black glaive made 100% out of ebony, it has a slightly longer than average pole to assist with slashing on horseback, and seems to have a platinum button near the lower grip, resembling a Nightmare.</p>
+			<p class="indent"><b><i>Damage. </i></b>The glaive does 1d12 slashing damage, and you may force the opposing enemy to make a dc15 constitution saving throw, or take (1d10 + CON) necrotic damage once per short rest.</p>
+			<p class="indent"><b><i>Horse Back proficiency. </i></b>While on horseback, the weapon gains a +2 to attack and damage rolls.</p>
+			<p class="indent"><b><i>Magic Enhancement. </i></b>You have a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent"><b><i>Summon Mare. </i></b>Once per long rest, you may cast the <b>Phantom Steed</b> spell.</p>
+		</description>
+		<setters>
+			<set name="keywords">glaive</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="glaive">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">glaive</set>
+		</setters>
+	</element>
+	<element name="Venire (TESTING)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_VENIRE">
+		<description>
+			<p>Magic is constantly in a state of evolution, getting more and more complex as generations pass us to come, this tome seems to write itself new entries anytime magic evolves.</p>
+			<p class="indent"><b><i>Spells. </i></b>This spellbook allows all spells cast from it to be cast one level higher. Even 9th level. Not only this but Venire has every spell ever created and that will be ever created.</p>
+			<p class="indent"><b><i>Spell Casting. </i></b>To cast a spell with Venire, you must make a proper sacrifice. See the sacrifice chart to decide your sacrifice. If you make a scroll for a spell, you must take 1 negative from every level below it, for example, making a 6th level scroll requires sacrifice from levels: 1, 2, 3, 4, 5, and 6.</p>
+			<p class="indent"><b><i>Magic Enhancement. </i></b>You have a +5 bonus to attack, damage, and save dc's made with this magic weapon.</p>
+			<p class="indent"><b><i>Godly Power. </i></b>You gain 1 cantrip of your choice, and 2 extra spell slots for level 1-5 spells, and 1 slot extra for level 6-9 spells</p>
+			<p class="indent"><b><i>Inertia. </i></b>When you first attune to the book you will create one random magic scroll of 9th level or higher.</p>
+			<p class="indent"><b><i>Piece of Eternity. </i></b>This Book is 1 of the 9 artifacts of Eternity.</p>
+			<p class="indent"><b><i>Random Properties. </i></b>One does not get power without sacrifice.</p>
+			<li>
+				<ul>2 minor beneficial properties</ul>
+				<ul>2 major beneficial properties</ul>
+				<ul>3 minor detrimental properties</ul>
+				<ul>2 major detrimental properties</ul>
+			</li>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Items</set>
+			<set name="attunement" addition="by a creature that can cast 9th level spells">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="slot">Spellcasting Focus</set>
+		</setters>
+	</element>
+	<element name="Grasp of Infinity (WIP)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_GRASP_OF_INFINITY">
+		<description>
+			<p>Looking like a normal human arm, this Prosthetic arm is made out of refined losdaleite, and will reform itself to match whatever arm you previously lost.</p>
+			<p class="indent"><b><i>Spells. </i></b>This spellbook allows all spells cast from it to be cast one level higher. Even 9th level. Not only this but Venire has every spell ever created and that will be ever created.</p>
+			<p class="indent"><b><i>Spell Casting. </i></b>To cast a spell with Venire, you must make a proper sacrifice. See the sacrifice chart to decide your sacrifice. If you make a scroll for a spell, you must take 1 negative from every level below it, for example, making a 6th level scroll requires sacrifice from levels: 1, 2, 3, 4, 5, and 6.</p>
+			<p class="indent"><b><i>Magic Enhancement. </i></b>You have a +5 bonus to attack, damage, and save dc's made with this magic weapon.</p>
+			<p class="indent"><b><i>Godly Power. </i></b>You gain 1 cantrip of your choice, and 2 extra spell slots for level 1-5 spells, and 1 slot extra for level 6-9 spells</p>
+			<p class="indent"><b><i>Inertia. </i></b>When you first attune to the book you will create one random magic scroll of 9th level or higher.</p>
+			<p class="indent"><b><i>Piece of Eternity. </i></b>This Book is 1 of the 9 artifacts of Eternity.</p>
+			<p class="indent"><b><i>Random Properties. </i></b>One does not get power without sacrifice.</p>
+			<li>
+				<ul>2 minor beneficial properties</ul>
+				<ul>2 major beneficial properties</ul>
+				<ul>3 minor detrimental properties</ul>
+				<ul>2 major detrimental properties</ul>
+			</li>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Items</set>
+			<set name="attunement" addition="by a creature that can cast 9th level spells">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="slot">Spellcasting Focus</set>
+		</setters>
+	</element>
+	<element name="Strength" type="Ability Score Improvement" source="Andromeda" id="ID_ADJUSTED_ABILITY_SCORE_INCREASE_STRENGTH">
+		<supports>Excalibur Ability Score Increase</supports>
+		<description>
+			<p>Your Strength increases by 2 to a maximum of 24.</p>
+		</description>
+		<sheet display="false" />
 		<rules>
-			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
-			<stat name="speed:fly" value="speed" bonus="base" />
-			<!-- todo: add flag for can hover? -->
+			<stat name="strength" value="2" alt="Excalibur"/>
+			<stat name="strength:max" value="4"/>
 		</rules>
+	</element>
+	<element name="Dexterity" type="Ability Score Improvement" source="Andromeda" id="ID_ADJUSTED_ABILITY_SCORE_INCREASE_DEXTERITY">
+		<supports>Excalibur Ability Score Increase</supports>
+		<description>
+			<p>Your Dexterity increases by 2 to a maximum of 24.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" alt="Excalibur"/>
+			<stat name="dexterity:max" value="4"/>
+		</rules>
+	</element>
+	<element name="Constitution" type="Ability Score Improvement" source="Andromeda" id="ID_ADJUSTED_ABILITY_SCORE_INCREASE_CONSTITUTION">
+		<supports>Excalibur Ability Score Increase</supports>
+		<description>
+			<p>Your Constitution increases by 2 to a maximum of 24.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" alt="Excalibur"/>
+			<stat name="constitution:max" value="4"/>
+		</rules>
+	</element>
+	<element name="Intelligence" type="Ability Score Improvement" source="Andromeda" id="ID_ADJUSTED_ABILITY_SCORE_INCREASE_INTELLIGENCE">
+		<supports>Excalibur Ability Score Increase</supports>
+		<description>
+			<p>Your Intelligence increases by 2 to a maximum of 24.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="intelligence" value="2" alt="Excalibur"/>
+			<stat name="intelligence:max" value="4"/>
+		</rules>
+	</element>
+	<element name="Wisdom" type="Ability Score Improvement" source="Andromeda" id="ID_ADJUSTED_ABILITY_SCORE_INCREASE_WISDOM">
+		<supports>Excalibur Ability Score Increase</supports>
+		<description>
+			<p>Your Wisdom increases by 2 to a maximum of 24.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="2" alt="Excalibur"/>
+			<stat name="wisdom:max" value="4"/>
+		</rules>
+	</element>
+	<element name="Charisma" type="Ability Score Improvement" source="Andromeda" id="ID_ADJUSTED_ABILITY_SCORE_INCREASE_CHARISMA">
+		<supports>Excalibur Ability Score Increase</supports>
+		<description>
+			<p>Your Charisma increases by 2 to a maximum of 24.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="2" alt="Excalibur"/>
+			<stat name="charisma:max" value="4"/>
+		</rules>
+	</element>
+	<element name="Artifact Properties" type="Rule" source="Dungeon Master’s Guide" id="ID_WOTC_DMG_ARTIFACT_TABLE">
+		<description>
+			<h5>Minor Beneficial Properties</h5>
+			<table>
+				<thead>
+					<tr><td>d100</td><td>Property</td></tr>
+				</thead>
+				<tr><td>01-20</td><td>While attuned to the artifact, you gain proficiency in one skill of the DM's choice.</td></tr>
+				<tr><td>21-30</td><td>While attuned to the artifact, you are immune to disease.</td></tr>
+				<tr><td>31-40</td><td>While attuned to the artifact, you can't be charmed or frightened.</td></tr>
+				<tr><td>41-50</td><td>While attuned to the artifact, you have resistance against one damage type of the DM's choice.</td></tr>
+				<tr><td>51-60</td><td>While attuned to the artifact, you can use an action to cast one cantrip (chosen by the DM) from it.</td></tr>
+				<tr><td>61-70</td><td>While attuned to the artifact, you can use an action to cast one 1st-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1-5, you can't cast it again until the next dawn.</td></tr>
+				<tr><td>71-80</td><td>As 61-70 above, except the spell is 2nd level.</td></tr>
+				<tr><td>81-90</td><td>As 61-70 above, except the spell is 3rd level.</td></tr>
+				<tr><td>91-00</td><td>While attuned to the artifact, you gain a +1 bonus to Armor Class.</td></tr>
+			</table>
+
+			<h5>Major Beneficial Properties</h5>
+			<table>
+				<thead>
+					<tr><td>d100</td><td>Property</td></tr>
+				</thead>
+				<tr><td>01-20</td><td>While attuned to the artifact, one of your ability scores (DM's choice) increases by 2, to a maximum of 24.</td></tr>
+				<tr><td>21-30</td><td>While attuned to the artifact, you regain 1d6 hit points at the start of your turn if you have at least 1 hit point.</td></tr>
+				<tr><td>31-40</td><td>When you hit with a weapon attack while attuned to the artifact, the target takes an extra 1d6 damage of the weapon's type.</td></tr>
+				<tr><td>41-50</td><td>While attuned to the artifact, your walking speed increases by 10 feet.</td></tr>
+				<tr><td>51-60</td><td>While attuned to the artifact, you can use an action to cast one 4th-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1-5, you can't cast it again until the next dawn.</td></tr>
+				<tr><td>61-70</td><td>As 51-60 above, except the spell is 5th level.</td></tr>
+				<tr><td>71-80</td><td>As 51-60 above, except the spell is 6th level.</td></tr>
+				<tr><td>81-90</td><td>As 51-60 above, except the spell is 7th level.</td></tr>
+				<tr><td>91-00</td><td>While attuned to the artifact, you can't be blinded, deafened, petrified, or stunned.</td></tr>
+			</table>
+
+			<h5>Minor Detrimental Properties</h5>
+			<table>
+				<thead>
+					<tr><td>d100</td><td>Property</td></tr>
+				</thead>
+				<tr><td>01-05</td><td>While attuned to the artifact, you have disadvantage on saving throws against spells.</td></tr>
+				<tr><td>06-10</td><td>The first time you touch a gem or piece of jewelry while attuned to this artifact, the value of the gem or jewelry is reduced by half.</td></tr>
+				<tr><td>11-15</td><td>While attuned to the artifact, you are blinded when you are more than 10 feet away from it.</td></tr>
+				<tr><td>16-20</td><td>While attuned to the artifact, you have disadvantage on saving throws against poison.</td></tr>
+				<tr><td>21-30</td><td>While attuned to the artifact, you emit a sour stench noticeable from up to 10 feet away.</td></tr>
+				<tr><td>31-35</td><td>While attuned to the artifact, all holy water within 10 feet of you is destroyed.</td></tr>
+				<tr><td>36-40</td><td>While attuned to the artifact, you are physically ill and have disadvantage on any ability check or saving throw that uses Strength or Constitution.</td></tr>
+				<tr><td>41-45</td><td>While attuned to the artifact, your weight increases by 1d4 × 10 pounds.</td></tr>
+				<tr><td>46-50</td><td>While attuned to the artifact, your appearance changes as the DM decides.</td></tr>
+				<tr><td>51-55</td><td>While attuned to the artifact, you are deafened when you are more than 10 feet away from it.</td></tr>
+				<tr><td>56-60</td><td>While attuned to the artifact, your weight drops by 1d4 × 5 pounds.</td></tr>
+				<tr><td>61-65</td><td>While attuned to the artifact, you can't smell.</td></tr>
+				<tr><td>66-70</td><td>While attuned to the artifact, nonmagical flames are extinguished within 30 feet of you.</td></tr>
+				<tr><td>71-80</td><td>While you are attuned to the artifact, other creatures can't take short or long rests while within 300 feet of you.</td></tr>
+				<tr><td>81-85</td><td>While attuned to the artifact, you deal 1d6 necrotic damage to any plant you touch that isn't a creature.</td></tr>
+				<tr><td>86-90</td><td>While you are attuned to the artifact, animals within 30 feet of you are hostile toward you.</td></tr>
+				<tr><td>91-95</td><td>While attuned to the artifact, you must eat and drink six times the normal amount each day.</td></tr>
+				<tr><td>96-00</td><td>While you are attuned to the artifact, your flaw is amplified in a way determined by the DM.</td></tr>
+			</table>
+
+			<h5>Major Detrimental Properties</h5>
+			<table>
+				<thead>
+					<tr><td>d100</td><td>Property</td></tr>
+				</thead>
+				<tr><td>01-05</td><td>While you are attuned to the artifact, your body rots over the course of four days, after which the rotting stops. You lose your hair by the end of day 1, finger tips and toe tips by the end of day 2, lips and nose by the end of day 3, and ears by the end of day 4. A <i>regenerate</i> spell restores lost body parts</td></tr>
+				<tr><td>06-10</td><td>While you are attuned to the artifact, you determine your alignment daily at dawn by rolling a d6 twice. On the first roll, a 1-2 indicates lawful, 3-4 neutral, and 5-6 chaotic. On the second roll, a 1-2 indicates good, 3-4 neutral, and 5-6 evil.</td></tr>
+				<tr><td>11-15</td><td>When you first attune to the artifact, it gives you a quest determined by the DM. You must complete this quest as if affected by the <i>geas</i> spell. Once you complete the quest, you are no longer affected by this property.</td></tr>
+				<tr><td>16-20</td><td>The artifact houses a bodiless life force that is hostile toward you. Each time you use an action to use one of the artifact's properties, there is a 50 percent chance that the life force tries to leave the artifact and enter your body. If you fail a DC 20 Charisma saving throw, it succeeds, and you become an NPC under the DM's control until the intruding life force is banished using magic such as the <i>dispel evil and good</i> spell.</td></tr>
+				<tr><td>21-25</td><td>Creatures with a challenge rating of 0, as well as plants that aren't creatures, drop to 0 hit points when within 10 feet of the artifact.</td></tr>
+				<tr><td>26-30</td><td>The artifact imprisons a <b>death slaad</b> (see the <i>Monster Manual</i>). Each time you use one of the artifact's properties as an action, the slaad has a 10 percent chance of escaping, whereupon it appears within 15 feet of you and attacks you.</td></tr>
+				<tr><td>31-35</td><td>While you are attuned to the artifact, creatures of a particular type other than humanoid (as chosen by the DM) are always hostile toward you.</td></tr>
+				<tr><td>36-40</td><td>The artifact dilutes magic potions within 10 feet of it, rendering them nonmagical.</td></tr>
+				<tr><td>41-45</td><td>The artifact erases magic scrolls within 10 feet of it, rendering them nonmagical.</td></tr>
+				<tr><td>46-50</td><td>Before using one of the artifact's properties as an action, you must use a bonus action to draw blood, either from yourself or from a willing or incapacitated creature within your reach, using a piercing or slashing melee weapon. The subject takes 1d4 damage of the appropriate type.</td></tr>
+				<tr><td>51-60</td><td>When you become attuned to the artifact, you gain a form of long-term madness (see chapter 8 of <i>Dungeon Master’s Guide</i>, "Running the Game").</td></tr>
+				<tr><td>61-65</td><td>You take 4d10 psychic damage when you become attuned to the artifact.</td></tr>
+				<tr><td>66-70</td><td>You take 8d10 psychic damage when you become attuned to the artifact.</td></tr>
+				<tr><td>71-75</td><td>Before you can become attuned to the artifact, you must kill a creature of your alignment.</td></tr>
+				<tr><td>76-80</td><td>When you become attuned to the artifact, one of your ability scores is reduced by 2 at random. A <i>greater restoration</i> spell restores the ability to normal.</td></tr>
+				<tr><td>81-85</td><td>Each time you become attuned to the artifact, you age 3d10 years. You must succeed on a DC 10 Constitution saving throw or die from the shock. If you die, you are instantly transformed into a <b>wight</b> (see the <i>Monster Manual</i>) under the DM's control that is sworn to protect the artifact.</td></tr>
+				<tr><td>86-90</td><td>While attuned to the artifact, you lose the ability to speak.</td></tr>
+				<tr><td>91-95</td><td>While attuned to the artifact, you have vulnerability to all damage.</td></tr>
+				<tr><td>96-00</td><td>When you become attuned to the artifact, there is a 10 percent chance that you attract the attention of a god that sends an avatar to wrest the artifact from you. The avatar has the same alignment as its creator and the statistics of an <b>empyrean</b> (see the <i>Monster Manual</i>). Once it obtains the artifact, the avatar vanishes.</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="keywords">Artifacts</set>
+		</setters>
 	</element>
 </elements>
