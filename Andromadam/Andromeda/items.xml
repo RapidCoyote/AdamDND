@@ -280,11 +280,12 @@
 	<element name="Venire (TESTING)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_VENIRE">
 		<description>
 			<p>Magic is constantly in a state of evolution, getting more and more complex as generations pass us to come, this tome seems to write itself new entries anytime magic evolves.</p>
-			<p class="indent"><b><i>Spells. </i></b>This spellbook allows all spells cast from it to be cast one level higher. Even 9th level. Not only this but Venire has every spell ever created and that will be ever created.</p>
+			<p class="indent"><b><i>Spells. </i></b>This spellbook allows all spells cast from it to be cast one level higher.</p>
 			<p class="indent"><b><i>Spell Casting. </i></b>To cast a spell with Venire, you must make a proper sacrifice. See the sacrifice chart to decide your sacrifice. If you make a scroll for a spell, you must take 1 negative from every level below it, for example, making a 6th level scroll requires sacrifice from levels: 1, 2, 3, 4, 5, and 6.</p>
-			<p class="indent"><b><i>Magic Enhancement. </i></b>You have a +5 bonus to attack, damage, and save dc's made with this magic weapon.</p>
-			<p class="indent"><b><i>Godly Power. </i></b>You gain 1 cantrip of your choice, and 2 extra spell slots for level 1-5 spells, and 1 slot extra for level 6-9 spells</p>
+			<p class="indent"><b><i>Magic Enhancement. </i></b>You have a +3 bonus to attack, damage, and save dc's made with this magic weapon.</p>
+			<p class="indent"><b><i>Godly Power. </i></b>You gain 2 cantrips of your choice, and 2 extra spell slots for level 1-5 spells, and 1 slot extra for level 6-9 spells</p>
 			<p class="indent"><b><i>Inertia. </i></b>When you first attune to the book you will create one random magic scroll of 9th level or higher.</p>
+			<p class="indent"><b><i>
 			<p class="indent"><b><i>Piece of Eternity. </i></b>This Book is 1 of the 9 artifacts of Eternity.</p>
 			<p class="indent"><b><i>Random Properties. </i></b>One does not get power without sacrifice.</p>
 			<li>
@@ -301,7 +302,7 @@
 			<set name="category">Wondrous Items</set>
 			<set name="cost" currency="gp">0</set>
 			<set name="type">Wondrous Items</set>
-			<set name="attunement" addition="by a creature that can cast 9th level spells">true</set>
+			<set name="attunement" addition="by a wizard">true</set>
 			<set name="rarity">Artifact</set>
 			<set name="slot">Spellcasting Focus</set>
 		</setters>
