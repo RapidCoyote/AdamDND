@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/items.xml" />
 		</update>
 	</info>
@@ -285,7 +285,6 @@
 			<p class="indent"><b><i>Magic Enhancement. </i></b>You have a +3 bonus to attack, damage, and save dc's made with this magic weapon.</p>
 			<p class="indent"><b><i>Godly Power. </i></b>You gain 2 cantrips of your choice, and 2 extra spell slots for level 1-5 spells, and 1 slot extra for level 6-9 spells</p>
 			<p class="indent"><b><i>Inertia. </i></b>When you first attune to the book you will create one random magic scroll of 9th level or higher.</p>
-			<p class="indent"><b><i>
 			<p class="indent"><b><i>Piece of Eternity. </i></b>This Book is 1 of the 9 artifacts of Eternity.</p>
 			<p class="indent"><b><i>Random Properties. </i></b>One does not get power without sacrifice.</p>
 			<li>
