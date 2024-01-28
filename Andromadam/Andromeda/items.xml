@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="0.0.11">
+		<update version="0.0.12">
 			<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/items.xml" />
 		</update>
 	</info>
@@ -491,7 +491,7 @@
 		</setters>
 	</element>
 
-	<element name="The Scarlet Spear (Starved)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_EXCALIBUR_AWAKENED">
+	<element name="The Scarlet Spear (Starved)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_SCARLET_HUNGY">
 		<description>
 			<p><b><i>Cravings. </i></b>The scarlet spear craves blood. If not fed, it will instead feed on it's wielder.</p>
 			<p class="indent"><b><i>Cravings. </i></b>The Scarlet spear requires blood. The spear has 100 blood points. To go from Starved to Craved you must get 25 blood points, then 75 more for the spear to be satiated, after earning 100, the spear will only get 1/5 of the points until becoming Craved again. If you do not kill anyone that day, the spear loses 15 points, otherwise every kill reduces the points lost by 3. If the spear is starved, it will instead sap your strength, every day it will take 1 from every stat, or 1d10 from your maximum hp. If the spear is craved you will regain +1 stats or regain 1d10 hp until you regain your maximum, on Satiated, you regain all lost stats and hp. Killing a tiny creature gives you 1 point, small gives 3, medium gives 8, large gives 15, huge gives 40, and gargantuan gives 100</p>
@@ -522,7 +522,7 @@
 		</setters>
 	</element>
 
-	<element name="The Scarlet Spear (Craved)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_EXCALIBUR_AWAKENED">
+	<element name="The Scarlet Spear (Craved)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_SCARLET_PLUMP">
 		<description>
 			<p><b><i>Cravings. </i></b>The scarlet spear craves blood. If not fed, it will instead feed on it's wielder.</p>
 			<p class="indent"><b><i>Cravings. </i></b>The Scarlet spear requires blood. The spear has 100 blood points. To go from Starved to Craved you must get 25 blood points, then 75 more for the spear to be satiated, after earning 100, the spear will only get 1/5 of the points until becoming Craved again. If you do not kill anyone that day, the spear loses 15 points, otherwise every kill reduces the points lost by 3. If the spear is starved, it will instead sap your strength, every day it will take 1 from every stat, or 1d10 from your maximum hp. If the spear is craved you will regain +1 stats or regain 1d10 hp until you regain your maximum, on Satiated, you regain all lost stats and hp. Killing a tiny creature gives you 1 point, small gives 3, medium gives 8, large gives 15, huge gives 40, and gargantuan gives 100</p>
@@ -554,7 +554,7 @@
 		</setters>
 	</element>
 
-	<element name="The Scarlet Spear (Satiated)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_EXCALIBUR_AWAKENED">
+	<element name="The Scarlet Spear (Satiated)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_SCARLET_FULL">
 		<description>
 			<p><b><i>Cravings. </i></b>The scarlet spear craves blood. If not fed, it will instead feed on it's wielder.</p>
 			<p class="indent"><b><i>Cravings. </i></b>The Scarlet spear requires blood. The spear has 100 blood points. To go from Starved to Craved you must get 25 blood points, then 75 more for the spear to be satiated, after earning 100, the spear will only get 1/5 of the points until becoming Craved again. If you do not kill anyone that day, the spear loses 15 points, otherwise every kill reduces the points lost by 3. If the spear is starved, it will instead sap your strength, every day it will take 1 from every stat, or 1d10 from your maximum hp. If the spear is craved you will regain +1 stats or regain 1d10 hp until you regain your maximum, on Satiated, you regain all lost stats and hp. Killing a tiny creature gives you 1 point, small gives 3, medium gives 8, large gives 15, huge gives 40, and gargantuan gives 100</p>
