@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="0.0.10">
+		<update version="0.0.11">
 			<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/items.xml" />
 		</update>
 	</info>
@@ -581,7 +581,7 @@
 			<set name="keywords">spear</set>
 			<set name="category">Magic Weapons</set>
 			<set name="cost" currency="gp">0</set>
-			<set name="type" addition="longsword">Weapon</set>
+			<set name="type" addition="spear">Weapon</set>
 			<set name="attunement">true</set>
 			<set name="rarity">Artifact</set>
 			<set name="weapon">spear</set>
