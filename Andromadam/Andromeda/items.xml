@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Weapons</name>
-		<update version="0.0.9">
+		<update version="0.0.10">
 			<file name="items.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/items.xml" />
 		</update>
 	</info>
@@ -489,5 +489,108 @@
 		<setters>
 			<set name="keywords">Artifacts</set>
 		</setters>
+	</element>
+
+	<element name="The Scarlet Spear (Starved)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_EXCALIBUR_AWAKENED">
+		<description>
+			<p><b><i>Cravings. </i></b>The scarlet spear craves blood. If not fed, it will instead feed on it's wielder.</p>
+			<p class="indent"><b><i>Cravings. </i></b>The Scarlet spear requires blood. The spear has 100 blood points. To go from Starved to Craved you must get 25 blood points, then 75 more for the spear to be satiated, after earning 100, the spear will only get 1/5 of the points until becoming Craved again. If you do not kill anyone that day, the spear loses 15 points, otherwise every kill reduces the points lost by 3. If the spear is starved, it will instead sap your strength, every day it will take 1 from every stat, or 1d10 from your maximum hp. If the spear is craved you will regain +1 stats or regain 1d10 hp until you regain your maximum, on Satiated, you regain all lost stats and hp. Killing a tiny creature gives you 1 point, small gives 3, medium gives 8, large gives 15, huge gives 40, and gargantuan gives 100</p>
+			<p class="indent"><b><i>Sentient. </i></b>The Scarlet Spear is inhabited by a Chaotic Evil spirit, it has 12 Intelligence, 15 Wisdom, and 23 Charisma, if you reach 50% hp or take more than 10% of your hp in an attack you must suceed a dc25 Charisma save (or your spellcasting modifier) or dc20 for Warlocks. on a failed save the spear takes control over your mind, on the begining of your turn, you may attempt to make the save again to break free.</p>
+			<p class="indent"><b><i>Damage. </i></b>The Scarlet Spear does 1d6 piercing damage.</p>
+			<p class="indent"><b><i>Bonus. </i></b>The Starved form is a +1 weapon.</p>
+			<p class="indent"><b><i>Sapping Sting. </i></b>On a Critical hit, The Scarlet spear will sap 1 from every stat on the target, granting you the stats until the end of your next turn, when the target regains all stats lost, this can stack.</p>
+			<p class="indent"><b><i>Chaotic Casting. </i></b>The Starved form has 5 charges, regaining 1d4+1 charges every day at dawn, It can cast Crimson Strike(Bonus action, next attack does 1d6 extra necrotic damage, 1 charge), Vampiric Touch(2 charges, only regains 3 blood points), Exanguinate(3 charges, reaction on hit, 4d8 necrotic damage).  These spells activate a chaos burst.</p>
+			<p class="indent"><b><i>Random Properties. </i></b>The Scarlet Spear has random properties.</p>
+			<li>
+				<ul>1 minor beneficial property</ul>
+				<ul>0 major beneficial properties</ul>
+				<ul>2 minor detrimental properties</ul>
+				<ul>2 major detrimental properties</ul>
+			</li>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">spear</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="weapon">spear</set>
+		</setters>
+	</element>
+
+	<element name="The Scarlet Spear (Craved)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_EXCALIBUR_AWAKENED">
+		<description>
+			<p><b><i>Cravings. </i></b>The scarlet spear craves blood. If not fed, it will instead feed on it's wielder.</p>
+			<p class="indent"><b><i>Cravings. </i></b>The Scarlet spear requires blood. The spear has 100 blood points. To go from Starved to Craved you must get 25 blood points, then 75 more for the spear to be satiated, after earning 100, the spear will only get 1/5 of the points until becoming Craved again. If you do not kill anyone that day, the spear loses 15 points, otherwise every kill reduces the points lost by 3. If the spear is starved, it will instead sap your strength, every day it will take 1 from every stat, or 1d10 from your maximum hp. If the spear is craved you will regain +1 stats or regain 1d10 hp until you regain your maximum, on Satiated, you regain all lost stats and hp. Killing a tiny creature gives you 1 point, small gives 3, medium gives 8, large gives 15, huge gives 40, and gargantuan gives 100</p>
+			<p class="indent"><b><i>Sentient. </i></b>The Scarlet Spear is inhabited by a Chaotic Evil spirit, it has 12 Intelligence, 15 Wisdom, and 23 Charisma, if you reach 50% hp or take more than 10% of your hp in an attack you must suceed a dc20 Charisma save (or your spellcasting modifier) or dc15 for Warlocks. on a failed save the spear takes control over your mind, on the begining of your turn, you may attempt to make the save again to break free.</p>
+			<p class="indent"><b><i>Damage. </i></b>The Scarlet Spear does 1d6 piercing damage.</p>
+			<p class="indent"><b><i>Bonus. </i></b>The Craved form is a +2 weapon.</p>
+			<p class="indent"><b><i>Sapping Sting. </i></b>On a Critical hit, The Scarlet spear will sap 2 from every stat on the target, granting you +1 to all stats until the end of your next turn, when the target regains all stats lost, this can stack.</p>
+			<p class="indent"><b><i>Chaotic Casting. </i></b>The Craved form has 10 charges, regaining 1d8+2 charges every day at dawn, It can cast Crimson Strike(Bonus action, next attack does 1d6 extra necrotic damage, 1 charge), Vampiric Touch(2 charges, also 3 regains blood points), Exanguinate(3 charges, reaction on hit, 4d8 necrotic damage), Strangling Field(5 Charges, action, 1d8 necrotic damage in a 20ft radius, heal all damage spread in a 10ft radius around you, Link Vitality(2 Charges, action, curse a target (dc15 CHA save), linking the two of you, if you take damage, they take half as necrotic, and if they take damage you gain 1 blood point and 1d4+2 healing). These spells activate a chaos burst.</p>
+			<p class="indent"><b><i>Shadow Strike. </i></b>The Craved form has 5 Smite charges, allowing you to do 1d8 extra necrotic damage on a hit and healing half of the extra damage dealt. Paladins can use spell slots or the charges, acting as a divine smite but instead dealing necrotic damage, and healing half of the extra damage dealt, the smite does 1d8 extra damage to celestials and undead.</p>
+			<p class="indent"><b><i>Random Properties. </i></b>The Scarlet Spear has random properties.</p>
+			<li>
+				<ul>2 minor beneficial properties</ul>
+				<ul>1 major beneficial property</ul>
+				<ul>o minor detrimental properties</ul>
+				<ul>2 major detrimental properties</ul>
+			</li>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">spear</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="weapon">spear</set>
+		</setters>
+	</element>
+
+	<element name="The Scarlet Spear (Satiated)" type="Magic Item" source="Andromeda" id="ID_MAGIC_ITEM_EXCALIBUR_AWAKENED">
+		<description>
+			<p><b><i>Cravings. </i></b>The scarlet spear craves blood. If not fed, it will instead feed on it's wielder.</p>
+			<p class="indent"><b><i>Cravings. </i></b>The Scarlet spear requires blood. The spear has 100 blood points. To go from Starved to Craved you must get 25 blood points, then 75 more for the spear to be satiated, after earning 100, the spear will only get 1/5 of the points until becoming Craved again. If you do not kill anyone that day, the spear loses 15 points, otherwise every kill reduces the points lost by 3. If the spear is starved, it will instead sap your strength, every day it will take 1 from every stat, or 1d10 from your maximum hp. If the spear is craved you will regain +1 stats or regain 1d10 hp until you regain your maximum, on Satiated, you regain all lost stats and hp. Killing a tiny creature gives you 1 point, small gives 3, medium gives 8, large gives 15, huge gives 40, and gargantuan gives 100</p>
+			<p class="indent"><b><i>Sentient. </i></b>The Scarlet Spear is inhabited by a Chaotic Evil spirit, it has 15 Intelligence, 18 Wisdom, and 26 Charisma, if you reach 50% hp or take more than 10% of your hp in an attack you gain resistance to all damage and immunity to necrotic damage until your next turn.</p>
+			<p class="indent"><b><i>Damage. </i></b>The Scarlet Spear does 1d6 piercing + 1d4 necrotic damage.</p>
+			<p class="indent"><b><i>Bonus. </i></b>The Satiated form is a +3 weapon.</p>
+			<p class="indent"><b><i>Sapping Sting. </i></b>On a Critical hit, The Scarlet spear will sap 3 from every stat on the target, granting you a +2 to every stat until the end of your next turn, when the target regains all stats lost, this can stack.</p>
+			<p class="indent"><b><i>Chaotic Casting. </i></b>The Satiated form has 15 charges, regaining all charges every day at dawn, It can cast Crimson Strike(Bonus action, next attack does 1d6 extra necrotic damage, 1 charge), Vampiric Touch(2 charges, also 3 regains blood points), Exanguinate(3 charges, reaction on hit, 4d8 necrotic damage), Strangling Field(3 Charges, action, 1d8 necrotic damage in a 20ft radius, heal all damage spread in a 10ft radius around you, Link Vitality(2 Charges, action, curse a target (dc15 CHA save), linking the two of you, if you take damage, they take half as necrotic, and if they take damage you gain 1 blood point and 1d4+2 healing), Final Stand(15 Charges or take 8d6 necrotic, bonus action, wreath the Spear in unholy crimson, all strikes made with it for that turn deal 6d12 necrotic damage. for 1 minute you can choose to deal 1d8 damage to yourself to deal 1d12 extra necrotic damage to the target, on a critical hit for this minute you heal 2d12 hp. These spells activate a chaos burst.</p>
+			<p class="indent"><b><i>Shadow Strike. </i></b>The Satiated form has 5 Smite charges, allowing you to do 1d8 extra necrotic damage on a hit. Paladins can use spell slots or the charges (paladins gain 3 extra charges), acting as a divine smite but instead dealing necrotic damage, and healing half of the extra damage dealt, the smite does 1d8 extra damage to celestials and undead.</p>
+			<p class="indent"><b><i>Sanguine Lord. </i></b>Once per short rest you can summon a shield made of blood, raising your AC by 5 and every missed attack made on you heals you by 1d8, this lasts for 2 turns, additionally once per long rest you can encase the area within 10ft of you in blood, sapping the strength from all life around you at the end of your turn, granting you 1 blood point per creature in the zone, and dealing 2d8 necrotic damage to them and sapping 1 strength, during this time you sprout wings of blood granting you a 40ft flying speed, +1 to AC, and +1d4 necrotic damage to every dice damage roll. this effect lasts for 1 minute or if you stop doing dammage at all for one turn. once the effect ends you take all damage deal by the radius multiplied by how many turns were remaining (30 seconds remaining while dealing 2 damage deals 10 to you) and sapping 1 strength per creature effected, you regain your strength after 1 minute.</p>
+			<p class="indent"><b><i>Satiated. </i></b>You do not require food or water while The Scarlet Spear is satiated.</p>
+			<p class="indent"><b><i>Random Properties. </i></b>The Scarlet Spear has random properties.</p>
+			<li>
+				<ul>2 minor beneficial properties</ul>
+				<ul>2 major beneficial properties</ul>
+				<ul>1 minor detrimental property</ul>
+				<ul>1 major detrimental property</ul>
+			</li>
+			<div class="reference">
+				<div element="ID_WOTC_DMG_ARTIFACT_TABLE" />
+			</div>
+		</description>
+		<setters>
+			<set name="keywords">spear</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="longsword">Weapon</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Artifact</set>
+			<set name="weapon">spear</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="2"/>
+			<stat name="wisdom:max" value="2" />
+			<stat name="dexterity" value="2"/>
+			<stat name="dexterity:max" value="2" />
+		</rules>
 	</element>
 </elements>
