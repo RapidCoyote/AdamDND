@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+	<update version="1.0">
+		<file name="TimeDomain.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/Subclasses/TimeDomain.xml"/>	
+	</update>
+		<name>Time Domain</name>
+		<description>Gods of Time tend to be concerned with natural order and preventing excessive meddling in time, even allowing their followers to manipulate time in their service.</description>
+	</info>
+
+	<element name="Time Domain" type="Archetype" source="Andromeda" id="ARCHETYPE_CLERIC_TIME_DOMAIN">
+		<supports>Divine Domain</supports>
+		<description>
+			<p>Gods of Time tend to be concerned with natural order and preventing excessive meddling in time, even allowing their followers to manipulate time in their service.</p>
+			<div element="ARCHETYPE_FEATURE_TIME_DOMAIN_DOMAIN_SPELLS" />
+			<div element="ARCHETYPE_FEATURE_TIME_DOMAIN_FORESIGHT" />
+			<div element="ARCHETYPE_FEATURE_TIME_DOMAIN_TEMPORAL_ADEPT" />
+			<div element="ARCHETYPE_FEATURE_TIME_DOMAIN_CD_CHANNEL_DIVINITY_SLOW_TIME" />
+			<div element="ARCHETYPE_FEATURE_TIME_DOMAIN_CHANNEL_DIVINITY_REWIND_TIME" />
+			<div element="ARCHETYPE_FEATURE_TIME_DOMAIN_POTENT_SPELLCASTING" />
+			<div element="ARCHETYPE_FEATURE_TIME_DOMAIN_TIME_MASTER" />
+		</description>
+		<sheet>
+			<description>Gods of Time tend to be concerned with natural order and preventing excessive meddling in time, even allowing their followers to manipulate time in their service.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_TIME_DOMAIN_DOMAIN_SPELLS" level="1"/>
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_TIME_DOMAIN_FORESIGHT" level="1"/>
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_TIME_DOMAIN_TEMPORAL_ADEPT" level="1"/>
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_TIME_DOMAIN_CD_CHANNEL_DIVINITY_SLOW_TIME" level="2"/>
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_TIME_DOMAIN_CHANNEL_DIVINITY_REWIND_TIME" level="6"/>
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_TIME_DOMAIN_POTENT_SPELLCASTING" level="8"/>
+			<grant type="Archetype Feature" id="ARCHETYPE_FEATURE_TIME_DOMAIN_TIME_MASTER" level="17"/>
+		</rules>
+	</element>
+
+	<element name="Domain Spells" type="Archetype Feature" source="Andromeda" id="ARCHETYPE_FEATURE_TIME_DOMAIN_DOMAIN_SPELLS">
+		<description>
+			<p>You gain domain spells at the cleric levels listed in the Time Domain Spells table. See the Divine Domain class feature for how domain spells work.</p>
+			<h5>Time Domain Spells</h5>
+			<table>
+				<thead>
+					<tr>
+						<td>Cleric Level</td>
+						<td>Spells</td>
+					</tr>
+				</thead>
+				<tr>
+					<td>1st</td>
+					<td>
+						<em>expeditious retreat, feather fall</em>
+					</td>
+				</tr>
+				<tr>
+					<td>3rd</td>
+					<td>
+						<em>augury, hold person</em>
+					</td>
+				</tr>
+				<tr>
+					<td>5th</td>
+					<td>
+						<em>haste, slow</em>
+					</td>
+				</tr>
+				<tr>
+					<td>7th</td>
+					<td>
+						<em>divination, freedom of movement</em>
+					</td>
+				</tr>
+				<tr>
+					<td>9th</td>
+					<td>
+						<em>legend lore, modify memory</em>
+					</td>
+				</tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description></description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FEATHER_FALL" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_AUGURY" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_PERSON" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_HASTE" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SLOW" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DIVINATION" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LEGEND_LORE" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORY" level="9" spellcasting="Cleric" prepared="true" />
+		</rules>
+	</element>
+	<element name="Foresight" type="Archetype Feature" source="Andromeda" id="ARCHETYPE_FEATURE_TIME_DOMAIN_FORESIGHT">
+		<description>
+			<p>At 1st level, you gain a small degree of foreknowledge that improves your reaction time in combat. You can give yourself a bonus to your initiative rolls equal to your Wisdom modifier.</p>
+		</description>
+		<sheet display="false">
+			<description>You can give yourself a bonus to your initiative rolls equal to your Wisdom modifier.</description>
+		</sheet>
+	</element>
+	<element name="Temporal Adept" type="Archetype Feature" source="Andromeda" id="ARCHETYPE_FEATURE_TIME_DOMAIN_TEMPORAL_ADEPT">
+		<description>
+			<p>Also at 1st level, the river of time is slower to wash away your magic. When you cast a spell with a duration of 1 minute or longer, you can double that spell’s duration.</p>
+			<p class="indent"> Once you have used this feature, you cannot do so again until you have completed a long rest.</p>
+		</description>
+		<sheet>
+			<description>When you cast a spell with a duration of 1 minute or longer, you can double that spell’s duration.</description>
+		</sheet>
+	</element>
+	<element name="Channel Divinity: Slow Time" type="Archetype Feature" source="Andromeda" id="ARCHETYPE_FEATURE_TIME_DOMAIN_CD_CHANNEL_DIVINITY_SLOW_TIME">
+		<description>
+			<p>Starting at 2nd level, you can use your Channel Divinity to bend the river of time around you.</p>
+			<p class="indent">On your turn, you can take one additional action on top of your regular action and a possible bonus action. This additional action cannot be used to take the Cast a Spell action, and you may make no more than one weapon attack if you take the Attack action with it.</p>
+		</description>
+		<sheet alt="Slow Time" usage="Channel Divinity">
+			<description>
+				On your turn, you can take one additional action on top of your regular action and a possible bonus action. This additional action cannot be used to take the Cast a Spell action, and you may make no more than one weapon attack if you take the Attack action with it.
+			</description>
+		</sheet>
+	</element>
+	<element name="Channel Divinity: Rewind Time" type="Archetype Feature" source="Andromeda" id="ARCHETYPE_FEATURE_TIME_DOMAIN_CHANNEL_DIVINITY_REWIND_TIME">
+		<description>
+			<p>Starting at 6th level, you can use your Channel Divinity to travel a small distance back in time. As a reaction when you make an ability check, saving throw, or attack roll, you can re-roll with advantage. You may choose to use this feature after seeing the result of the roll but before the outcome is determined. You must use the result of the second roll.</p>
+		</description>
+		<sheet>
+			<description>As a reaction when you make an ability check, saving throw, or attack roll, you can re-roll with advantage. You may choose to use this feature after seeing the result of the roll but before the outcome is determined. You must use the result of the second roll.</description>
+		</sheet>
+	</element>
+	<element name="Potent Spellcasting" type="Archetype Feature" source="Andromeda" id="ARCHETYPE_FEATURE_TIME_DOMAIN_POTENT_SPELLCASTING">
+		<description>
+			<p>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>
+		</description>
+		<sheet>
+			<description>Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.</description>
+		</sheet>
+	</element>
+	<element name="Time’s Master" type="Archetype Feature" source="Andromeda" id="ARCHETYPE_FEATURE_TIME_DOMAIN_TIME_MASTER">
+		<description>
+			<p>At 17th level, you have bent time to your will. You gain the following benefits:</p>
+			<ul>
+				<li>Time stop is a domain spell for you. Like other domain spells, it is always prepared and counts as a cleric spell for you.</li>
+				<li>You experience no further physical effects from aging, you cannot be aged magically, and your natural lifespan is increased tenfold.</li>
+				<li>You can use a bonus action to double your base walking speed until the end of your turn.</li>
+				<li>Whenever you cast a cleric spell of 1st level or higher with a casting time of at least 1 minute, you can spend an additional spell slot to reduce its casting time to 1 action. The additional spell slot you spend must be of a level no lower than 1 level below the spell’s level.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Time stop is a domain spell for you. Like other domain spells, it is always prepared and counts as a cleric spell for you. You experience no further physical effects from aging, you cannot be aged magically, and your natural lifespan is increased tenfold. You can use a bonus action to double your base walking speed until the end of your turn. Whenever you cast a cleric spell of 1st level or higher with a casting time of at least 1 minute, you can spend an additional spell slot to reduce its casting time to 1 action. The additional spell slot you spend must be of a level no lower than 1 level below the spell’s level.
+		</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_TIME_STOP" level="17" spellcasting="Cleric" prepared="true" />
+		</rules>
+	</element>
+</elements>
