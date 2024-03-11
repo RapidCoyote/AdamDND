@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="CircleOfDeath.xml" url="https://raw.githubusercontent.com/RapidCoyote/AdamDND/main/Andromadam/Andromeda/Subclasses/CircleOfDeath.xml" />
 		</update>
 	</info>
@@ -178,11 +178,11 @@ Starting at 14th level, you can quadruple the amount of beasts you summon with t
 	<element name="Cycle of Life and Death" type="Archetype Feature" source="Andromeda" id="ARCHETYPE_FEATURE_CIRCLE_DEATH_CYCLE_OF_LIFE">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_DRUID_CIRCLE_DEATH_CYCLE_OF_LIFE</requirements>
 		<description>
-			<p>When you reach 14th level, You have proven yourself a true druid of Rot, you see death not as the end, but as a necessary stage of life, you see life as a symphony, death as art, and undeath as a masterpiece. When you have any raised undead from the ritual of rot, within 1000ft of you at your time of death, they will use their life force to allow you to rise again at 1hp. this also permanently causes you to lose 1 maximum hp, if maximum hp goes to 0, you cannot be raised ever again. Additionally, you emanate an aura around you, allowing you full control of the death saving throws of creatures around you.</p>
+			<p>At 14th level, when you die, your powers of death and decay maintain your form. Your old body rots away and then reforms over 10 days, ending with your resurrection as per the raise dead spell. When you are resurrected this way, your body is weak for a time. Your maxmimum hit points are reduced by 60 - your Druid level, and you gain vulerability to fire damage. These effects persist for 1d10 + 10 days. If you die during this period however, your body is destroyed and you cannot be resurrected by any other means besides a true resurrection or a wish spell. This feature cannot reduced your maximum hit points to an amount lower than 5.</p>
 			<p class="indent">The creature is aware of this effect before it makes its attack against you.</p>
 		</description>
 		<sheet>
-			<descr>When a beast or plant creature attacks you, that creature must make a Wisdom saving throw. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours. The creature is aware of this effect before it makes its attack against you.</descr>
+			<descr>At 14th level, when you die, your powers of death and decay maintain your form. Your old body rots away and then reforms over 10 days, ending with your resurrection as per the raise dead spell. When you are resurrected this way, your body is weak for a time. Your maxmimum hit points are reduced by 60 - your Druid level, and you gain vulerability to fire damage. These effects persist for 1d10 + 10 days. If you die during this period however, your body is destroyed and you cannot be resurrected by any other means besides a true resurrection or a wish spell. This feature cannot reduced your maximum hit points to an amount lower than 5.</descr>
 		</sheet>
 	</element>
 </elements>
